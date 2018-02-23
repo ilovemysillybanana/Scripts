@@ -1,7 +1,6 @@
 require 'selenium-webdriver'
 
 options = Selenium::WebDriver::Chrome::Options.new
-options.add_argument('user-data-dir=/Users/jose/Library/Application Support/Google/Chrome/Default')
 options.add_argument('no-sandbox')
 
 driver = Selenium::WebDriver.for :chrome, options: options
